@@ -84,6 +84,8 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
@@ -119,8 +121,6 @@ USE_L10N = True
 USE_TZ = True
 
 
-db_from_env = dj_database_url.config()
-DATABASES['default'].update(db_from_env)
 
 
 # Static files (CSS, JavaScript, Images)
