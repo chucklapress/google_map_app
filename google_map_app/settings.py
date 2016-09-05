@@ -148,7 +148,7 @@ STATICFILES_DIRS = (
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-GEOPOSITION_GOOGLE_MAPS_API_KEY = 'AIzaSyC-Cm6uVYD2j89q_TT8fc_Jq2pCPxmIfKM'
+GEOPOSITION_GOOGLE_MAPS_API_KEY = 'AIzaSyC2aoLW7K1XIfoqnKOTHoE4GDK7-ZfCrQE'
 GEOPOSITION_MARKER_OPTIONS = {
          'cursor': 'move'
      }
